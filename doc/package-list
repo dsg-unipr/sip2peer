@@ -1,0 +1,9 @@
+it.unipr.ce.dsg.s2p.example.msg
+it.unipr.ce.dsg.s2p.example.peer
+it.unipr.ce.dsg.s2p.message
+it.unipr.ce.dsg.s2p.message.parser
+it.unipr.ce.dsg.s2p.org.json
+it.unipr.ce.dsg.s2p.peer
+it.unipr.ce.dsg.s2p.sip
+it.unipr.ce.dsg.s2p.sip.sbc
+it.unipr.ce.dsg.s2p.util

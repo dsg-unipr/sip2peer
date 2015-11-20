@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PeerActivity!</string>
+    <string name="app_name">Sip2Peer</string>
+<string name="config">Configuration</string>
+<string name="joinpeer">Join Peer</string>
+<string name="peerlist">Peer List Manager</string>
+<string name="sbc">Contact SBC</string>
+</resources>

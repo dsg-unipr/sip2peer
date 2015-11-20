@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+<TextView android:text="Bootstrap Peer" android:id="@+id/bootstrapText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/nameEdit"></TextView>
+<EditText android:text="" android:id="@+id/bootstrapEdit" android:layout_below="@id/bootstrapText" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+<TextView android:text="SBC Server" android:id="@+id/sbcText" android:layout_below="@id/bootstrapEdit" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="" android:id="@+id/sbcEdit" android:layout_below="@id/sbcText" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+<CheckBox android:text="check peer reachability" android:id="@+id/reachCheckBox" android:layout_below="@id/sbcEdit" android:layout_width="wrap_content" android:layout_height="wrap_content">
+</CheckBox><Button android:text="save" android:id="@+id/save" android:layout_below="@id/reachCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>

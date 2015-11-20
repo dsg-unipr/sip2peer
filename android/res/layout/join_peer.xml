@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayoutJoin" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:text="Send JOIN message to Bootstrap" android:id="@+id/textViewJoin"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<EditText android:text="" android:id="@+id/editBootAddress" android:layout_below="@id/textViewJoin" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+<Button android:text="Send JOIN" android:id="@+id/sendJoin" android:layout_width="wrap_content" android:layout_below="@id/editBootAddress" android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>

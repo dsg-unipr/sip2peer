@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<EditText android:text="peer@pcpeer.com:port" 
+android:id="@+id/addressEditor" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</EditText>
+
+<Button android:text="Send PING" 
+android:id="@+id/sendPing" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_below="@id/addressEditor">
+</Button>
+
+<Button android:text="Clear" 
+android:id="@+id/clearButton" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@id/sendPing"
+android:layout_below="@id/addressEditor">
+</Button>
+<Button android:text="Close App" 
+android:id="@+id/closeApp" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:layout_below="@id/addressEditor">
+</Button>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:background="#5f5c5c" 
+android:layout_marginTop="5pt"
+android:layout_below="@id/clearButton" 
+>
+<TextView android:text="Peer information:" 
+android:id="@+id/info" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+</TextView>
+<TextView android:text="" 
+android:id="@+id/addressPeer" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_below="@id/info">
+</TextView>
+<TextView android:text="" 
+android:id="@+id/contAddressPeer" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_below="@id/addressPeer">
+</TextView>
+</RelativeLayout>
+
+</RelativeLayout>
+
+
